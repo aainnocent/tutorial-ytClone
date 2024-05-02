@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply Roboto font to body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style for header__left section */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+ytd-left{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.logo img{
+    width: 100px;
+}
+.logo img i{
+    margin: 10px;
+}
+.header-center{
+    display: flex;
+    align-items: center;
+}
+.ytd-searchbox{
+    border-radius: 20px;
+}
+#container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+}
+#search-input{
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 600px;
+}
+button{
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.header-center i{
+    margin-left: 25px;
+}
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.header-icons i{
+    margin: 0 10px;
+}
+.sidebar{
+    float: left;
+    background-color: white;
+    height: 100%;
+    width: 200px;
+    align-items: center;
+}
+.sidebar-categories{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-category{
+    margin-top: 28px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    border-radius: 7px;
+    padding: 9px 12px;
+}
+.sidebar-category:hover{
+    background-color: #ddd;
+    color: #ddd;
+    cursor: pointer;
+
+}
+.sidebar-category i{
+    align-items: center;
+    display: block;
+    margin-bottom: 10px;
+}
+.main{
+    margin-left: 230px;
+    display: flex;
+    flex-direction: column;
+}
+.main-head{
+    position: fixed;
+    width: 100%;
+    top: 70px;
+    left: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+.main-head button{
+    display: flex;
+    border: none;
+    padding: 7px;
+    margin: 5px;
+}
+.main-head ul{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.categories{
+    list-style-type: none;
+    margin: 10px;
+    padding: 7px 10px;
+    display: flex;
+}
+.categories li{
+    margin-right: 15px;
+    cursor: pointer;
+    justify-content: space-between;
+    border: 10px;
+    border-radius: 14px;
+}
+.categories li:hover{
+    background-color: #ddd;
+    color: white;
+    cursor: pointer;
+}
+.main-body{
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.videos{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 15px 25px;
+    border-top: 1 solid #ddd;
+    margin-left: 10px;
+}
+.videos-categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.video{
+    width: 310px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.video-thumbnail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 170px;
+}
+.video-thumbnail img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.video-details{
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+.video-author img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.video-author{
+    display: flex;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.title h3{
+    color: rgb(3, 3, 3);
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.title a, span{
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
